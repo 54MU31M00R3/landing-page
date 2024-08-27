@@ -10,6 +10,8 @@ body {
 }
 .home-chunk {
     height: 300px;
+    display: flex;
+    align-items: center;
 }
 .navbar {
     display: flex;
@@ -23,4 +25,11 @@ body {
     list-style-type: none;
     align-items: center;
     gap: 16px;
+}
+.first-sub-chunk {
+    display: flex;
+}
+.first-sub-chunk .container {
+    width: 400px;
+    text-align: left;
 }
