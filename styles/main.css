@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 800px;
+    margin: auto;
+}
+.header {
+    height: 100px;
+}
+.home-chunk {
+    height: 300px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .header{
+    margin-right: auto;
+}
+.navbar .navbar-links{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 16px;
+}
