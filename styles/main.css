@@ -52,3 +52,17 @@ body {
 .third-sub-chunk .credits{
     text-align: right;
 }
+.fourth-sub-chunk {
+    display:flex;
+    width: 600px;
+    justify-content: space-between;
+}
+.fourth-sub-chunk .sign-up-info{
+    text-align: left;
+}
+.fourth-sub-chunk .sign-up-info .header {
+    margin-bottom: 0;
+}
+.fourth-sub-chunk .sign-up-info .text {
+    margin-top: 0;
+}
