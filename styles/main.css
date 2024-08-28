@@ -45,3 +45,10 @@ body {
     display: flex;
     gap: 16px;
 }
+.third-sub-chunk{
+    display: flex;
+    flex-direction: column;
+}
+.third-sub-chunk .credits{
+    text-align: right;
+}
