@@ -5,13 +5,11 @@ body {
     width: 800px;
     margin: auto;
 }
-.header {
-    height: 100px;
-}
 .home-chunk {
     height: 300px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .navbar {
     display: flex;
@@ -19,6 +17,7 @@ body {
 }
 .navbar .header{
     margin-right: auto;
+    height: 100px;
 }
 .navbar .navbar-links{
     display: flex;
@@ -28,8 +27,21 @@ body {
 }
 .first-sub-chunk {
     display: flex;
+    flex: auto;
 }
 .first-sub-chunk .container {
     width: 400px;
     text-align: left;
+}
+.second-sub-chunk{
+    display: flex;
+    flex-direction: column;
+}
+.second-sub-chunk .header {
+    margin-bottom:16px;
+
+}
+.second-sub-chunk .box-container{
+    display: flex;
+    gap: 16px;
 }
