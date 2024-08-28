@@ -125,7 +125,7 @@ button {
 .third-sub-chunk{
     display: flex;
     flex-direction: column;
-    width: 1000px;
+    width: 800px;
 }
 .third-sub-chunk .credits{
     text-align: right;
@@ -135,17 +135,31 @@ button {
 }
 .fourth-sub-chunk {
     display:flex;
-    width: 600px;
+    width: 800px;
+    align-items: center;
     justify-content: space-between;
+    background-color: #3882F6;
+    padding: 40px 100px 40px 100px;
+    border-radius: 25px;
 }
 .fourth-sub-chunk .sign-up-info{
     text-align: left;
 }
 .fourth-sub-chunk .sign-up-info .header {
     margin-bottom: 0;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 .fourth-sub-chunk .sign-up-info .text {
     margin-top: 0;
+    color: #F9FAF8;
+}
+.fourth-sub-chunk .sign-up {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    color: white;
+    font-weight: 900;
+    font-size: 16px;
 }
 .footer .disclaimer{
     height: 50px;
